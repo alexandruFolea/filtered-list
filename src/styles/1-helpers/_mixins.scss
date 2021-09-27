@@ -1,0 +1,19 @@
+// background no repeat and center/cover
+@mixin bg-no-repeat {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+// flex row/colum center
+@mixin flex-center-row() {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@mixin flex-center-column() {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
